@@ -1,0 +1,84 @@
+/* completa tu codigo aqui */
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+li {
+	width: 100px;
+	height: 100px;
+}
+ul {
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+.box-table {
+	display: table;
+}
+.box-tablerow {
+	display: table-row;
+}
+.tablecell {
+	display:table-cell;
+}
+.box1 {
+	background: #7cc2fd;}
+.sub-box1 {
+  background: #333333;
+  display: none;
+  box-sizing: border-box;
+	padding: 40px 3px;;
+}
+.sub-box1 a{
+	color: #7cc2fd;
+}
+.box2 {
+	background: #7af0dc;
+}
+.sub-box2 {
+	background: #333333;
+	display: none;
+	box-sizing: border-box;
+	padding: 40px 3px;
+}
+.sub-box2 a{
+	color: #7af0dc;
+}
+.box3 {
+	background: #fcb77b;
+}
+.sub-box3 {
+	background: #333333;
+	display: none;
+	box-sizing: border-box;
+	padding: 40px 3px;
+}
+.sub-box3 a{
+	color: #fcb77b;
+}
+.box4 {
+	background: #fb959e;
+}
+.sub-box4 {
+	background: #333333;
+	display: none;
+	box-sizing: border-box;
+	padding: 40px 3px;
+}
+.sub-box4 a{
+	color: #fb959e;
+}
+.box-tablerow:hover > .sub-box1{
+ 	display: table-cell;
+}
+.box-tablerow:hover > .sub-box2{
+ 	display: table-cell;
+}
+.box-tablerow:hover > .sub-box3{
+ 	display: table-cell;
+}
+.box-tablerow:hover > .sub-box4{
+	display: table-cell;
+}
